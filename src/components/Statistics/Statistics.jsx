@@ -20,13 +20,6 @@ const Statistics = ({ title, stats }) => {
           );
         })}
       </ul>
-
-      {/* <ul className="stat-list">
-        <li className="item">
-          <span className="label">{label}</span>
-          <span className="percentage">{percentage}</span>
-        </li>
-      </ul> */}
     </section>
   );
 };
