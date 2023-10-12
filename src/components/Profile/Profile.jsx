@@ -1,15 +1,5 @@
-// const user = {
-//   username: 'Jacques Gluke',
-//   tag: 'jgluke',
-//   location: 'Ocho Rios, Jamaica',
-//   avatar: 'https://cdn-icons-png.flaticon.com/512/2922/2922506.png',
-//   stats: {
-//     followers: 5603,
-//     views: 4827,
-//     likes: 1308,
-//   },
-// };
 import css from './Profile.module.css';
+import createRandomColor from './CreatRandomColor';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
@@ -22,15 +12,24 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={css.stats}>
-        <li className={css.statsList}>
+        <li
+          className={css.statsList}
+          style={{ backgroundColor: createRandomColor() }}
+        >
           <span className={css.label}>followers</span>
           <span className={css.quantity}>{stats.followers}</span>
         </li>
-        <li className={css.statsList}>
+        <li
+          className={css.statsList}
+          style={{ backgroundColor: createRandomColor() }}
+        >
           <span className={css.label}>views</span>
           <span className={css.quantity}>{stats.views}</span>
         </li>
-        <li className={css.statsList}>
+        <li
+          className={css.statsList}
+          style={{ backgroundColor: createRandomColor() }}
+        >
           <span className={css.label}>likes</span>
           <span className={css.quantity}>{stats.likes}</span>
         </li>

@@ -1,5 +1,5 @@
 .profile {
-  padding: 50px 20px;
+  padding: 50px 20px 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,8 +42,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
   margin: auto;
-  padding: 20px;
   background-color: #d4cdd049;
   width: 100%;
 }
@@ -51,6 +51,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  width: 100%;
 }
 .label {
   font-weight: 600;
