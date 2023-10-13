@@ -1,5 +1,5 @@
 import css from './Profile.module.css';
-import createRandomColor from '../helpers/createRandomColor';
+import createRandomColor from '../../helpers/createRandomColor';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (

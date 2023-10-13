@@ -1,5 +1,5 @@
 import css from './Statistic.module.css';
-import createRandomColor from '../helpers/createRandomColor';
+import createRandomColor from '../../helpers/createRandomColor';
 
 const Statistics = ({ title, stats }) => {
   return (
