@@ -1,6 +1,5 @@
 import css from './Statistic.module.css';
-import createRandomColor from './CreatRandomColor';
-
+import createRandomColor from '../helpers/createRandomColor.jsx';
 const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>

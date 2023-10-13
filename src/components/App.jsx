@@ -1,25 +1,16 @@
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
 import FriendList from './FriendList/FriendList';
-import TransactionHistory from './Transaction/TransactionHistory';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
-import user from './Info/user.json';
-import data from './Info/data.json';
-import friends from './Info/friends.json';
-import transactions from './Info/transactions.json';
+import user from '../info/user.json';
+import data from '../info/data.json';
+import friends from '../info/friends.json';
+import transactions from '../info/transactions.json';
 
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101',
-    // }}
-    >
+    <div>
       <Profile
         username={user.username}
         tag={user.tag}
