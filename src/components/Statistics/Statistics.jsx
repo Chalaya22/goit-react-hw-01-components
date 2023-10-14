@@ -6,15 +6,15 @@ const Statistics = ({ title, stats }) => {
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
-        {stats.map(data => {
+        {stats.map(stat => {
           return (
             <li
               className={css.item}
-              key={data.id}
+              key={stat.id}
               style={{ backgroundColor: createRandomColor() }}
             >
-              <span className={css.label}>{data.label}</span>
-              <span className={css.percentage}>{data.percentage}</span>
+              <span className={css.label}>{stat.label}</span>
+              <span className={css.percentage}>{stat.percentage}</span>
             </li>
           );
         })}

@@ -1,8 +1,8 @@
 .transactionTablle {
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1200px;
+  padding: 0 15px 60px 15px;
   margin: 0 auto;
-  width: 460px;
+  width: 100%;
 }
 .tabHead {
   background-color: hsla(215, 35%, 69%, 0.4);
